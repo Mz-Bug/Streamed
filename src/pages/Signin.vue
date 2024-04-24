@@ -47,8 +47,7 @@
           <q-input
             class="mail_input q-pl-md"
             borderless
-            v-model="text"
-            type="text"
+            v-model="email"
             placeholder="e.g. john_brown@company.com"
           />
           <q-btn
@@ -82,13 +81,18 @@
 <script>
 import Header from "../components/Header.vue";
 import Footer from "../components/Footer.vue";
+import { ref } from "vue";
 
 export default {
   components: {
     Header,
     Footer,
   },
-  setup() {},
+  setup() {
+    return {
+      text: ref('')
+    };
+  },
 };
 </script>
 <style lang="scss"></style>
