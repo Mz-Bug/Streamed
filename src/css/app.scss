@@ -1,0 +1,58 @@
+// app global css in SCSS form
+.header {
+  height: 90px;
+  background: #ffffff;
+}
+.logo {
+  width: 194px;
+  height: 67px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.connection_button {
+  border: 1px solid $secondary;
+  border-radius: 8px;
+}
+
+.or_col {
+  border-bottom: 1px solid $secondary;
+}
+.mail_input {
+  border: 1px solid $secondary;
+  border-radius: 8px;
+}
+
+.my-card {
+  border: 1px solid $secondary;
+  border-radius: 8px;
+  background-color: $accent;
+}
+.logo_img {
+  width: 20px;
+}
+
+.home_logo {
+  width: 120px;
+  height: 36px;
+}
+
+.home_header {
+  height: 60px;
+}
+
+.home_select {
+  border-radius: 8px;
+}
+
+.select_width {
+  width: 200px;
+}
+
+.home_search{
+  width: 300px;
+  border: 1px solid $secondary;
+  border-radius: 8px;
+}
